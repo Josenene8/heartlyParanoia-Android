@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lmao.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fumo idle0000" x="0" y="0" width="576" height="410" frameX="0" frameY="-66" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0001" x="0" y="0" width="576" height="410" frameX="0" frameY="-66" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0002" x="576" y="0" width="565" height="428" frameX="-6" frameY="-48" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0003" x="576" y="0" width="565" height="428" frameX="-6" frameY="-48" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0004" x="1141" y="0" width="551" height="448" frameX="-13" frameY="-28" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0005" x="1141" y="0" width="551" height="448" frameX="-13" frameY="-28" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0006" x="0" y="448" width="495" height="476" frameX="-41" frameY="0" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0007" x="0" y="448" width="495" height="476" frameX="-41" frameY="0" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0008" x="495" y="448" width="468" height="467" frameX="-54" frameY="-9" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0009" x="495" y="448" width="468" height="467" frameX="-54" frameY="-9" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0010" x="495" y="448" width="468" height="467" frameX="-54" frameY="-9" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0011" x="495" y="448" width="468" height="467" frameX="-54" frameY="-9" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0012" x="495" y="448" width="468" height="467" frameX="-54" frameY="-9" frameWidth="576" frameHeight="476"/>
+	<SubTexture name="fumo idle0013" x="495" y="448" width="468" height="467" frameX="-54" frameY="-9" frameWidth="576" frameHeight="476"/>
+</TextureAtlas>

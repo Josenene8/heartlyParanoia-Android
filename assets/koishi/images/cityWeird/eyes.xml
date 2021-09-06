@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eyes.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="eyes 0000" x="0" y="0" width="322" height="159" frameX="-4" frameY="-8" frameWidth="350" frameHeight="170"/>
+	<SubTexture name="eyes 0001" x="0" y="0" width="322" height="159" frameX="-4" frameY="-8" frameWidth="350" frameHeight="170"/>
+	<SubTexture name="eyes 0002" x="322" y="0" width="299" height="159" frameX="-15" frameY="-11" frameWidth="350" frameHeight="170"/>
+	<SubTexture name="eyes 0003" x="322" y="0" width="299" height="159" frameX="-15" frameY="-11" frameWidth="350" frameHeight="170"/>
+	<SubTexture name="eyes 0004" x="621" y="0" width="306" height="162" frameX="0" frameY="-6" frameWidth="350" frameHeight="170"/>
+	<SubTexture name="eyes 0005" x="621" y="0" width="306" height="162" frameX="0" frameY="-6" frameWidth="350" frameHeight="170"/>
+	<SubTexture name="eyes 0006" x="0" y="162" width="338" height="169" frameX="-12" frameY="0" frameWidth="350" frameHeight="170"/>
+	<SubTexture name="eyes 0007" x="0" y="162" width="338" height="169" frameX="-12" frameY="0" frameWidth="350" frameHeight="170"/>
+</TextureAtlas>
