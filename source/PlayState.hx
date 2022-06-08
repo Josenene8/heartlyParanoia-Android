@@ -3982,9 +3982,14 @@ class PlayState extends MusicBeatState
 			holdArray = [false, false, false, false];
 			pressArray = [false, false, false, false];
 			releaseArray = [false, false, false, false];
+			
+			{
+				holdArray = [false, false, false, false, false];
+				pressArray = [false, false, false, false, false];
+				releaseArray = [false, false, false, false, false];
+			}
 		}
-
-		
+                
 		// HOLDS, check for sustain notes
 		if (holdArray.contains(true) && /*!boyfriend.stunned && */ generatedMusic)
 		{
