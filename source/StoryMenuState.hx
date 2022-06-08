@@ -215,7 +215,10 @@ class StoryMenuState extends MusicBeatState
 		// add(rankText);
 		add(scoreText);
 		add(txtWeekTitle);
-
+		
+                #if android
+addVirtualPad(FULL, A_B);
+#end
 		updateText();
 
 
@@ -261,12 +264,12 @@ class StoryMenuState extends MusicBeatState
 			{
 				var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
 
-				if (FlxG.keys.justPressed.UP)
+				if (controls.UP_P)
 				{
 					changeWeek(-1);
 				}
 
-				if (FlxG.keys.justPressed.DOWN)
+				if (controls.DOWN_P)
 				{
 					changeWeek(1);
 				}
