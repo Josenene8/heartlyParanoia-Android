@@ -4220,7 +4220,7 @@ class PlayState extends MusicBeatState
 
 	public function backgroundVideo(source:String) // for background videos
 	{
-		#if cpp
+		/*#if cpp
 		useVideo = true;
 
 		FlxG.stage.window.onFocusOut.add(focusOut);
@@ -4273,7 +4273,7 @@ class PlayState extends MusicBeatState
 			webmHandler.pause();
 		else
 			webmHandler.resume();
-		#end
+		#end*/
 	}
 
 	function noteMiss(direction:Int = 1, daNote:Note):Void
