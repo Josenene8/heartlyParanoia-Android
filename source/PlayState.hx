@@ -4074,7 +4074,7 @@ class PlayState extends MusicBeatState
 						if (pressArray[coolNote.noteData] && !hit[coolNote.noteData])
 						{
 							if (mashViolations != 0)
-								mashViolations--;
+							
 							hit[coolNote.noteData] = true;
 							scoreTxt.color = FlxColor.WHITE;
 							var noteDiff:Float = -(coolNote.strumTime - Conductor.songPosition);
