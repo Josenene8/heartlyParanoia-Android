@@ -1,7 +1,7 @@
 package;
 
 import lime.app.Application;
-#if windows
+#if desktop
 import Discord.DiscordClient;
 #end
 import openfl.display.BlendMode;
@@ -63,7 +63,7 @@ class Main extends Sprite
 
 		setupGame();
 	}
-
+     
 	private function setupGame():Void
 	{
 		var stageWidth:Int = Lib.current.stage.stageWidth;
@@ -78,18 +78,11 @@ class Main extends Sprite
 			gameHeight = Math.ceil(stageHeight / zoom);
 		}
 
-		#if windows
+		#if !cpp
 		framerate = 60;
 		#end
 
-		#if cpp
-		initialState = Caching;
-		game = new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen);
-		#else
-		game = new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen);
-		#end
-		addChild(game);
-		#if windows
+		#if desktop
 		DiscordClient.initialize();
 
 		Application.current.onExit.add (function (exitCode) {
@@ -98,12 +91,16 @@ class Main extends Sprite
 		 
 		#end
 
-		
+		game = new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen);
+		addChild(game);
+
+		//#if !mobile
 		fpsCounter = new FPS(10, 3, 0xFFFFFF);
 		addChild(fpsCounter);
 		toggleFPS(FlxG.save.data.fps);
-		
+		//#end
 	}
+	
 
 	var game:FlxGame;
 
