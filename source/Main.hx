@@ -78,7 +78,7 @@ class Main extends Sprite
 			gameHeight = Math.ceil(stageHeight / zoom);
 		}
 
-		#if !cpp
+		#if desktop
 		framerate = 60;
 		#end
 
