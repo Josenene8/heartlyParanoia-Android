@@ -8,6 +8,7 @@ import openfl.display.BlendMode;
 import openfl.text.TextFormat;
 import flixel.util.FlxColor;
 import flixel.FlxG;
+import lime.system.System;
 import flixel.FlxGame;
 import flixel.FlxState;
 import openfl.Assets;
@@ -27,6 +28,8 @@ class Main extends Sprite
 	var startFullscreen:Bool = false; // Whether to start the game in fullscreen on desktop targets
 
 	public static var watermarks = true; // Whether to put Kade Engine literally anywhere
+	
+        public static var path = lime.system.System.applicationStorageDirectory; // Path to replay Folder
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
